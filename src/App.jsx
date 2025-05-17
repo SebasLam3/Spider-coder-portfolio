@@ -185,7 +185,7 @@ function App() {
 
             <div className="bg-white text-black rounded-xl shadow-2xl overflow-hidden md:flex backdrop-blur-sm">
               <img
-                src="./assets/logoQ2Q.png"
+                src="../src/assets/logoQ2Q.png"
                 alt="Logo de Quan2Qual"
                 className="w-full md:w-1/3 object-cover bg-gray-200"
               />
