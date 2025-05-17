@@ -118,8 +118,8 @@ function App() {
             </h3>
 
             <p className="text-lg md:text-xl leading-relaxed text-gray-300 tracking-wide">
-              Me encantan los videojuegos y desde pequeño supe que quería trabajar en esta industria. 
-              <span className="text-yellow-400 font-semibold">Ingeniero en Multimedia</span>, encontré el equilibrio ideal entre lo técnico y lo artístico. 
+              Me encantan los videojuegos y desde pequeño supe que quería trabajar en esta industria. Como
+              <span className="text-yellow-400 font-semibold"> Ingeniero en Multimedia</span>, encontré el equilibrio ideal entre lo técnico y lo artístico. 
               Disfruto crear experiencias completas que integren programación, diseño visual, sonido, narrativa y animación. 
               Cada proyecto es una oportunidad para construir algo que no solo funcione, sino que también se sienta vivo.
 
