@@ -1,6 +1,13 @@
 import { useState } from 'react'
 import './App.css'
 import ProjectCardWithSlider from './components/ProjectCardWithSlider';
+import Quan2Qual from './assets/logoQ2Q.png';
+import Award from './assets/award.jpg';
+import Certificado from './assets/Certificado_de-19.jpg';
+import FotoSpace1 from './assets/Foto2.jpg';
+import GMCE from './assets/GM_CEIMA.PNG';
+import GMCE2 from './assets/GM_CEIMA2.PNG';
+import Halloween from './assets/HalloweenResize.jpeg';
 import { FadeInSection } from './components/FadeInSection';
 
 
@@ -145,8 +152,8 @@ function App() {
                 description="Juego cooperativo local en Unity para GameJam Unisabana - Teravision Games 2023. Compite por recoger la mayor cantidad de anillos en el espacio."
                 images={[
                   "https://i9.ytimg.com/vi_webp/qoKYAFFYEWY/maxresdefault.webp?v=65fc4b1e&sqp=CLDCoMEG&rs=AOn4CLBKF44xCyEElHDCdi9r5WhpFkgtdg",
-                  "./assets/Foto2.jpg",
-                  "./assets/award.jpg"
+                  `${FotoSpace1}`,
+                  `${Award}`
                 ]}
                 badge="Aclamado por el Público"
                 videoLink="https://youtu.be/qoKYAFFYEWY?si=5_ov9-GDotsI7lXh"
@@ -156,9 +163,9 @@ function App() {
                 title="Halloween Strikes Back"
                 description="Juego top-down creado en Unreal Engine para la GameJam CEIMA. Enfrenta hordas de zombies con IA y recolecta power-ups para sobrevivir."
                 images={[
-                  "./assets/HalloweenResize.jpeg",
-                  "./assets/GM_CEIMA.PNG",
-                  "./assets/GM_CEIMA2.PNG"
+                  `${Halloween}`,
+                  `${GMCE}`,
+                  `${GMCE2}`
                 ]}
                 videoLink="https://youtu.be/6RhaYF03ueQ?si=7wE4Z52DFHvLN7kU"
               />
@@ -185,7 +192,7 @@ function App() {
 
             <div className="bg-white text-black rounded-xl shadow-2xl overflow-hidden md:flex backdrop-blur-sm">
               <img
-                src="./assets/logoQ2Q.png"
+                src={Quan2Qual}
                 alt="Logo de Quan2Qual"
                 className="w-full md:w-1/3 object-cover bg-gray-200"
               />
@@ -243,7 +250,7 @@ function App() {
 
             <div className="bg-white text-black rounded-xl shadow-2xl overflow-hidden md:flex backdrop-blur-md">
               <img
-                src="/public/Certificado_de-19.jpg"
+                src={Certificado}
                 alt="Certificado Mentor MultiJam 2024"
                 className="w-full md:w-1/3 object-cover"
                 
@@ -371,7 +378,7 @@ function App() {
               &times;
             </button>
             <img
-              src="/public/Certificado_de-19.jpg"
+              src={Certificado}
               alt="Certificado ampliado"
               className="w-full h-auto rounded"
             />
