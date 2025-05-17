@@ -145,8 +145,8 @@ function App() {
                 description="Juego cooperativo local en Unity para GameJam Unisabana - Teravision Games 2023. Compite por recoger la mayor cantidad de anillos en el espacio."
                 images={[
                   "https://i9.ytimg.com/vi_webp/qoKYAFFYEWY/maxresdefault.webp?v=65fc4b1e&sqp=CLDCoMEG&rs=AOn4CLBKF44xCyEElHDCdi9r5WhpFkgtdg",
-                  "/public/Foto2.jpg",
-                  "/public/award.jpg"
+                  "./assets/Foto2.jpg",
+                  "./assets/award.jpg"
                 ]}
                 badge="Aclamado por el Público"
                 videoLink="https://youtu.be/qoKYAFFYEWY?si=5_ov9-GDotsI7lXh"
@@ -156,9 +156,9 @@ function App() {
                 title="Halloween Strikes Back"
                 description="Juego top-down creado en Unreal Engine para la GameJam CEIMA. Enfrenta hordas de zombies con IA y recolecta power-ups para sobrevivir."
                 images={[
-                  "/public/HalloweenResize.jpeg",
-                  "/public/GM_CEIMA.PNG",
-                  "/public/GM_CEIMA2.PNG"
+                  "./assets/HalloweenResize.jpeg",
+                  "./assets/GM_CEIMA.PNG",
+                  "./assets/GM_CEIMA2.PNG"
                 ]}
                 videoLink="https://youtu.be/6RhaYF03ueQ?si=7wE4Z52DFHvLN7kU"
               />
@@ -185,7 +185,7 @@ function App() {
 
             <div className="bg-white text-black rounded-xl shadow-2xl overflow-hidden md:flex backdrop-blur-sm">
               <img
-                src="../src/assets/logoQ2Q.png"
+                src="./assets/logoQ2Q.png"
                 alt="Logo de Quan2Qual"
                 className="w-full md:w-1/3 object-cover bg-gray-200"
               />
