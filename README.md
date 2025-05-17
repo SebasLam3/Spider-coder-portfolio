@@ -1,12 +1,22 @@
-# React + Vite
+# Spider-coder-portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🕷️ Spider-Coder Portfolio
 
-Currently, two official plugins are available:
+¡Bienvenido a mi portafolio personal! Soy Sebastian Lamprea, desarrollador y entusiasta de crear experiencias interactivas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologías
 
-## Expanding the ESLint configuration
+- React + Vite
+- Tailwind CSS
+- SVG Animado
+- Scroll Animations
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔗 Enlaces
+
+- 🌐 [Sitio desplegado en Vercel](https://spider-coder.vercel.app)
+- 💼 [LinkedIn](https://www.linkedin.com/in/sebaslampream)
+- 📬 Contacto: sebastian.lampream@gmail.com
+
+## 🧠 Licencia
+
+Este proyecto es de uso personal. ¡Inspiración bien recibida!
