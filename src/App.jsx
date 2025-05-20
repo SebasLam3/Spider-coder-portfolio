@@ -8,6 +8,7 @@ import FotoSpace1 from './assets/Foto2.jpg';
 import GMCE from './assets/GM_CEIMA.PNG';
 import GMCE2 from './assets/GM_CEIMA2.PNG';
 import Halloween from './assets/HalloweenResize.jpeg';
+import SPRCover from './assets/SPR_Cover.webp';
 import { FadeInSection } from './components/FadeInSection';
 
 
@@ -151,7 +152,7 @@ function App() {
                 title="Space Punk Racing"
                 description="Juego cooperativo local en Unity para GameJam Unisabana - Teravision Games 2023. Compite por recoger la mayor cantidad de anillos en el espacio."
                 images={[
-                  "https://i9.ytimg.com/vi_webp/qoKYAFFYEWY/maxresdefault.webp?v=65fc4b1e&sqp=CLDCoMEG&rs=AOn4CLBKF44xCyEElHDCdi9r5WhpFkgtdg",
+                  `${SPRCover}`,
                   `${FotoSpace1}`,
                   `${Award}`
                 ]}
